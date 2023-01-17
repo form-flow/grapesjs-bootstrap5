@@ -1,0 +1,72 @@
+/* Primary color for the background */
+.gjs-one-bg {
+  // background-color: #78366a;
+  background-color: #EEE;
+}
+
+/* Secondary color for the text color */
+.gjs-two-color {
+  // color: rgba(255, 255, 255, 0.7);
+  color: #111;
+}
+
+/* Tertiary color for the background */
+.gjs-three-bg {
+  background-color: #666;
+  color: white;
+}
+
+/* Quaternary color for the text color */
+.gjs-four-color,
+.gjs-four-color-h:hover {
+  color: #ec5896;
+}
+
+.gjs-sm-field.gjs-sm-composite, 
+.gjs-sm-composite.gjs-clm-select, 
+.gjs-sm-composite.gjs-clm-field {
+  background-color: initial;
+}
+.gjs-field {
+  border: 1px solid #999;
+  background-color: #DDD;
+  input, select, textarea {
+    background-color: #DDD;
+    border: 1px solid #DDD;
+    color: #333;
+  }
+}
+
+.gjs-radio-item input:checked+.gjs-radio-item-label {
+  background-color: #CCC;
+  border: 1px inset #DDD;
+}
+.gjs-clm-tags #gjs-clm-new {
+  color: initial;
+}
+.gjs-category-title, 
+.gjs-layer-title, 
+.gjs-block-category 
+.gjs-title, 
+.gjs-sm-sector-title {
+  font-weight: normal;
+}
+
+.gjs-trt-trait {
+  font-weight: normal;
+}
+.gjs-field-checkbox input:checked+.gjs-chk-icon {
+  border-color: initial;
+}
+.gjs-sm-sector {
+  font-weight: normal;
+}
+.gjs-field-arrow-u, .gjs-field-arrow-d {
+  border-top: 4px solid #333;
+}
+.gjs-field-arrow-u {
+  border-bottom: 4px solid #333;
+  border-top: none;
+  top: 4px;
+}
+
